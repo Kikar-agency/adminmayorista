@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>El Madero · Panel Admin</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg:       #F4F1EC;
@@ -33,7 +33,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-  font-family:'DM Sans', sans-serif;
+  font-family:'Montserrat', sans-serif;
   background:var(--bg);
   color:var(--ink);
   display:flex;
@@ -61,13 +61,13 @@ body {
   background:linear-gradient(135deg, var(--gold), var(--gold-lt));
   border-radius:10px;
   display:flex; align-items:center; justify-content:center;
-  font-family:'Playfair Display',serif;
+  font-family:'Montserrat', sans-serif;
   font-style:italic; font-size:18px; color:var(--ink);
   margin-bottom:10px;
 }
 
 .sb-logo h2 {
-  font-family:'Playfair Display',serif;
+  font-family:'Montserrat', sans-serif;
   color:#F4F1EC; font-size:16px; line-height:1.1;
 }
 .sb-logo p {
@@ -127,7 +127,7 @@ body {
 }
 
 .topbar-title {
-  font-family:'Playfair Display',serif;
+  font-family:'Montserrat', sans-serif;
   font-size:18px; color:var(--ink);
 }
 .topbar-title span { color:var(--gold); font-style:italic; }
@@ -136,13 +136,13 @@ body {
 
 .topbar-date {
   font-size:12px; color:var(--muted);
-  font-family:'DM Mono', monospace;
+  font-family:'Montserrat', sans-serif;
 }
 
 .btn {
   display:inline-flex; align-items:center; gap:6px;
   padding:8px 16px; border-radius:9px; font-size:13px;
-  font-family:'DM Sans',sans-serif; font-weight:500;
+  font-family:'Montserrat', sans-serif; font-weight:500;
   cursor:pointer; border:none; transition:all .15s;
 }
 .btn-gold {
@@ -209,7 +209,7 @@ body {
 .kpi-orange.kpi-icon { background:var(--orange-bg); }
 
 .kpi-val {
-  font-family:'Playfair Display',serif;
+  font-family:'Montserrat', sans-serif;
   font-size:26px; color:var(--ink); line-height:1;
   margin-bottom:4px;
 }
@@ -227,7 +227,7 @@ body {
   margin-bottom:14px;
 }
 .section-title {
-  font-family:'Playfair Display',serif;
+  font-family:'Montserrat', sans-serif;
   font-size:17px; color:var(--ink);
 }
 
@@ -248,7 +248,7 @@ body {
 .search-field input {
   width:100%; background:var(--bg); border:1.5px solid var(--border);
   border-radius:9px; padding:8px 12px 8px 34px;
-  font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink);
+  font-family:'Montserrat', sans-serif; font-size:13px; color:var(--ink);
   outline:none; transition:border-color .2s;
 }
 .search-field input:focus { border-color:var(--gold); }
@@ -260,7 +260,7 @@ body {
 .filter-sel {
   background:var(--bg); border:1.5px solid var(--border);
   border-radius:9px; padding:8px 12px;
-  font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink);
+  font-family:'Montserrat', sans-serif; font-size:13px; color:var(--ink);
   outline:none; cursor:pointer;
 }
 .filter-sel:focus { border-color:var(--gold); }
@@ -308,7 +308,7 @@ tbody td { padding:13px 18px; font-size:13px; color:var(--ink2); vertical-align:
 .form-input, .form-select {
   background:var(--bg); border:1.5px solid var(--border);
   border-radius:9px; padding:10px 13px;
-  font-family:'DM Sans',sans-serif; font-size:14px; color:var(--ink);
+  font-family:'Montserrat', sans-serif; font-size:14px; color:var(--ink);
   outline:none; transition:border-color .2s;
   width:100%;
 }
@@ -337,7 +337,7 @@ tbody td { padding:13px 18px; font-size:13px; color:var(--ink2); vertical-align:
   position:sticky; top:0; background:var(--surface); z-index:1;
 }
 .modal-hdr-title {
-  font-family:'Playfair Display',serif; font-size:19px; color:var(--ink);
+  font-family:'Montserrat', sans-serif; font-size:19px; color:var(--ink);
 }
 .modal-close-btn {
   width:30px; height:30px; background:var(--bg);
@@ -381,7 +381,7 @@ tbody td { padding:13px 18px; font-size:13px; color:var(--ink2); vertical-align:
 .dto-input {
   background:var(--bg); border:1.5px solid var(--border);
   border-radius:8px; padding:8px 10px;
-  font-family:'DM Mono',monospace; font-size:14px; color:var(--ink);
+  font-family:'Montserrat', sans-serif; font-size:14px; color:var(--ink);
   outline:none; width:100%; text-align:center;
   transition:border-color .2s;
 }
@@ -635,7 +635,7 @@ tbody td { padding:13px 18px; font-size:13px; color:var(--ink2); vertical-align:
             </div>
             <div style="padding:14px 18px;border-top:1.5px solid var(--border);display:flex;justify-content:space-between;align-items:center">
               <div style="font-size:13px;color:var(--muted)">Total del pedido</div>
-              <div style="font-family:'Playfair Display',serif;font-size:24px;color:var(--gold)" id="np-total">$0</div>
+              <div style="font-family:'Montserrat', sans-serif;font-size:24px;color:var(--gold)" id="np-total">$0</div>
             </div>
           </div>
         </div>
@@ -735,7 +735,7 @@ tbody td { padding:13px 18px; font-size:13px; color:var(--ink2); vertical-align:
         </div>
         <div style="text-align:right">
           <div style="font-size:12px;color:var(--muted);margin-bottom:2px">Total</div>
-          <div style="font-family:'Playfair Display',serif;font-size:28px;color:var(--gold)" id="mpd-total">$--</div>
+          <div style="font-family:'Montserrat', sans-serif;font-size:28px;color:var(--gold)" id="mpd-total">$--</div>
         </div>
       </div>
     </div>
@@ -901,10 +901,10 @@ function renderDashOrders() {
   const recent = PEDIDOS.slice(0, 6);
   document.getElementById('dash-orders-tbody').innerHTML = recent.map(p => `
     <tr>
-      <td><span style="font-family:'DM Mono',monospace;font-size:12px">${p.id}</span></td>
+      <td><span style="font-family:'Montserrat', sans-serif;font-size:12px">${p.id}</span></td>
       <td>${p.cliente}</td>
       <td style="color:var(--muted)">${p.fecha}</td>
-      <td style="font-family:'Playfair Display',serif;color:var(--gold)">${fmt(p.total)}</td>
+      <td style="font-family:'Montserrat', sans-serif;color:var(--gold)">${fmt(p.total)}</td>
       <td><span class="badge ${stCls[p.estado]}">${stLbl[p.estado]}</span></td>
       <td><button class="btn btn-outline btn-sm" onclick="verPedido('${p.id}')">Ver detalle</button></td>
     </tr>
@@ -924,11 +924,11 @@ function renderPedidos(list) {
           return (prod ? prod.name.split(' ').slice(0,3).join(' ') : i.prod) + ' ×' + i.qty;
         }).join(', ');
         return `<tr>
-          <td><span style="font-family:'DM Mono',monospace;font-weight:500">${p.id}</span></td>
+          <td><span style="font-family:'Montserrat', sans-serif;font-weight:500">${p.id}</span></td>
           <td>${p.cliente}</td>
           <td style="color:var(--muted)">${p.fecha}</td>
           <td style="font-size:12px;color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${itemsLabel}</td>
-          <td style="font-family:'Playfair Display',serif;color:var(--gold)">${fmt(p.total)}</td>
+          <td style="font-family:'Montserrat', sans-serif;color:var(--gold)">${fmt(p.total)}</td>
           <td><span class="badge ${stCls[p.estado]}">${stLbl[p.estado]}</span></td>
           <td>
             <div class="action-btns">
@@ -1008,7 +1008,7 @@ function renderClientes() {
   document.getElementById('clientes-tbody').innerHTML = CLIENTES.map((c, i) => `
     <tr>
       <td><div style="font-weight:600">${c.nombre}</div></td>
-      <td><span style="font-family:'DM Mono',monospace;font-size:12px;color:var(--muted)">${c.usuario}</span></td>
+      <td><span style="font-family:'Montserrat', sans-serif;font-size:12px;color:var(--muted)">${c.usuario}</span></td>
       <td><span class="badge b-gold">${c.dto.col}%</span></td>
       <td><span class="badge b-gold">${c.dto.som}%</span></td>
       <td><span class="badge b-gold">${c.dto.res}%</span></td>
@@ -1106,9 +1106,9 @@ function addItemRow() {
       </select>
     </td>
     <td><input type="number" class="form-input" value="1" min="1" style="width:60px;font-size:13px;padding:7px;text-align:center" onchange="rowChanged('${rid}')"></td>
-    <td style="font-family:'DM Mono',monospace;font-size:13px;color:var(--muted)" id="${rid}-base">—</td>
+    <td style="font-family:'Montserrat', sans-serif;font-size:13px;color:var(--muted)" id="${rid}-base">—</td>
     <td style="font-size:13px;color:var(--green);font-weight:600" id="${rid}-dto">—</td>
-    <td style="font-family:'Playfair Display',serif;font-size:15px;color:var(--gold)" id="${rid}-final">—</td>
+    <td style="font-family:'Montserrat', sans-serif;font-size:15px;color:var(--gold)" id="${rid}-final">—</td>
     <td><button class="btn btn-ghost btn-sm" onclick="removeRow('${rid}')">✕</button></td>
   `;
   document.getElementById('items-tbody').appendChild(tr);
